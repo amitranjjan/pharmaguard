@@ -28,7 +28,6 @@
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [API / Output Schema](#-output-schema)
-- [Sample VCF Files](#-sample-vcf-files)
 - [Team](#-team)
 
 ---
@@ -110,7 +109,7 @@ PhenotypePredictor → Lookup-based or activity-score-based phenotype prediction
 RiskEngine         → CPIC rule lookup: Phenotype + Drug → Risk Label + Action
      │
      ▼
-LLMExplainer       → Claude generates mechanism, summary, clinical context
+LLMExplainer       → AI generates mechanism, summary, clinical context
      │
      ▼
 JSON Output        → Structured report matching required schema
@@ -124,7 +123,7 @@ JSON Output        → Structured report matching required schema
 |---|---|
 | Frontend & App | Streamlit |
 | Language | Python 3.10+ |
-| AI / LLM | Anthropic Claude (claude-sonnet-4-6) |
+| AI / LLM | Anthropic Claude |
 | Data Validation | Pydantic v2 |
 | Data Processing | Pandas |
 | Clinical Data | CPIC Guidelines, PharmVar, PharmGKB |
@@ -228,8 +227,6 @@ ANTHROPIC_API_KEY=sk-ant-your-key-here
 
 ### 5. Run the App
 
-```bash
-streamlit run app.py
 ```
 
 Visit `http://localhost:8501` in your browser.
@@ -342,7 +339,7 @@ pharma-guard/
 │   ├── diplotype_caller.py       # Diplotype determination
 │   ├── phenotype_predictor.py    # Phenotype prediction (lookup + score)
 │   ├── risk_engine.py            # CPIC-based risk assessment
-│   └── llm_explainer.py          # Claude AI explanation generator
+│   └── llm_explainer.py          # AI explanation generator
 ├── data/
 │   ├── cpic_guidelines.json      # CPIC drug-gene rules
 │   ├── variant_database.json     # rsID → star allele lookup
@@ -355,43 +352,9 @@ pharma-guard/
 │   ├── normal_metabolizer.vcf
 │   └── rapid_metabolizer.vcf
 ├── .env.example
-├── requirements.txt
 └── README.md
 ```
 
----
-
-## ☁️ Deployment
-
-### Streamlit Cloud (Recommended)
-
-1. Push your repo to GitHub (ensure it is **public**)
-2. Go to [share.streamlit.io](https://share.streamlit.io)
-3. Connect your GitHub account
-4. Select repo → branch: `main` → file: `app.py`
-5. Under **Advanced Settings**, add secret:
-   ```
-   ANTHROPIC_API_KEY = sk-ant-your-key-here
-   ```
-6. Click **Deploy** — live URL in ~2 minutes
-
----
-
-## 📦 Dependencies
-
-```
-streamlit>=1.32.0
-anthropic>=0.25.0
-pydantic>=2.0.0
-python-dotenv>=1.0.0
-pandas>=2.0.0
-```
-
-Install all with:
-
-```bash
-pip install -r requirements.txt
-```
 
 ---
 
@@ -414,6 +377,9 @@ PharmaGuard is a **research and educational tool** built for a hackathon. It is 
 
 | Name | Role |
 |---|---|
-| Your Name | Full Stack Developer — Solo |
+| Amit Ranjan | Full Stack Developer |
+| Aditya Dwivedi | Backend Developer |
+| Krish Kumar | Frontend Developer |
+| Karan Kumar | PPT Maker |
 
-Built with ❤️ for **RIFT 2026 Hackathon** — Pharmacogenomics / Explainable AI Track
+Built with ❤️ for **RIFT 2026 Hackathon** — Team xSparx
