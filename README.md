@@ -8,12 +8,12 @@
 
 | Resource | Link |
 |---|---|
-| 🌐 Live Demo | [https://pharma-guard.streamlit.app](https://pharma-guard.streamlit.app) |
+| 🌐 Live Demo | [Click Here.](https://pharmaguard-xsparx.streamlit.app) |
 | 🎥 LinkedIn Demo Video | [Watch on LinkedIn](https://www.linkedin.com/posts/your-video-link) |
-| 📁 GitHub Repository | [github.com/yourusername/pharma-guard](https://github.com/yourusername/pharma-guard) |
+| 📁 GitHub Repository | [Click Here](https://github.com/amitranjjan/pharmaguard) |
 
 > 📢 Built for **RIFT 2026 Hackathon** — Pharmacogenomics / Explainable AI Track
-> `#RIFT2026` `#PharmaGuard` `#Pharmacogenomics` `#AIinHealthcare`
+> `#RIFT2026` `#PharmaGuard` `#Pharmacogenomics` `#AIinHealthcare` `#TeamxSparx`
 
 ---
 
@@ -50,7 +50,7 @@ PharmaGuard is a web application that:
 2. Identifies pharmacogenomically relevant variants across **6 critical genes**
 3. Determines the patient's **diplotype and phenotype** (e.g., Poor Metabolizer)
 4. Predicts **drug-specific risk** aligned with CPIC guidelines
-5. Generates a **structured clinical explanation** using Claude AI (Anthropic)
+5. Generates a **structured clinical explanation** using AI (Anthropic)
 6. Outputs a **downloadable JSON report** matching the required clinical schema
 
 ---
@@ -82,8 +82,7 @@ PharmaGuard is a web application that:
          └─────────────────────────────┘
                         │
          ┌──────────────▼──────────────┐
-         │      Anthropic Claude API   │
-         │   (claude-sonnet-4-6)       │
+         │      Anthropic API          │
          │  Clinical explanation gen   │
          └─────────────────────────────┘
 ```
@@ -123,7 +122,7 @@ JSON Output        → Structured report matching required schema
 |---|---|
 | Frontend & App | Streamlit |
 | Language | Python 3.10+ |
-| AI / LLM | Anthropic Claude |
+| AI / LLM | Anthropic LLM AI |
 | Data Validation | Pydantic v2 |
 | Data Processing | Pandas |
 | Clinical Data | CPIC Guidelines, PharmVar, PharmGKB |
@@ -186,12 +185,11 @@ JSON Output        → Structured report matching required schema
 ### Prerequisites
 
 - Python 3.10 or higher
-- An Anthropic API key ([get one here](https://console.anthropic.com))
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/pharma-guard.git
+git clone https://github.com/username/pharma-guard.git
 cd pharma-guard
 ```
 
@@ -222,14 +220,14 @@ cp .env.example .env
 Edit `.env` and add your API key:
 
 ```
-ANTHROPIC_API_KEY=sk-ant-your-key-here
+ANTHROPIC_API_KEY="KEY HERE"
 ```
 
 ### 5. Run the App
 
 ```
 
-Visit `http://localhost:8501` in your browser.
+Visit `http://localhost:8501` in browser.
 
 ---
 
