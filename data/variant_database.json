@@ -1,0 +1,122 @@
+{
+  "rs3892097": {
+    "gene": "CYP2D6",
+    "star_allele": "*4",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer allele"
+  },
+  "rs5030655": {
+    "gene": "CYP2D6",
+    "star_allele": "*6",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer allele"
+  },
+  "rs35742686": {
+    "gene": "CYP2D6",
+    "star_allele": "*3",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer allele"
+  },
+  "rs1065852": {
+    "gene": "CYP2D6",
+    "star_allele": "*10",
+    "effect": "decreased_function",
+    "clinical_significance": "Intermediate Metabolizer allele"
+  },
+  "rs28371706": {
+    "gene": "CYP2D6",
+    "star_allele": "*41",
+    "effect": "decreased_function",
+    "clinical_significance": "Intermediate Metabolizer allele"
+  },
+  "rs4986774": {
+    "gene": "CYP2D6",
+    "star_allele": "*2",
+    "effect": "normal_function",
+    "clinical_significance": "Normal Metabolizer allele"
+  },
+  "rs28399504": {
+    "gene": "CYP2C19",
+    "star_allele": "*4",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer allele"
+  },
+  "rs4244285": {
+    "gene": "CYP2C19",
+    "star_allele": "*2",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer allele"
+  },
+  "rs4986893": {
+    "gene": "CYP2C19",
+    "star_allele": "*3",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer allele"
+  },
+  "rs12248560": {
+    "gene": "CYP2C19",
+    "star_allele": "*17",
+    "effect": "increased_function",
+    "clinical_significance": "Rapid/Ultrarapid Metabolizer allele"
+  },
+  "rs1799853": {
+    "gene": "CYP2C9",
+    "star_allele": "*2",
+    "effect": "decreased_function",
+    "clinical_significance": "Intermediate Metabolizer allele"
+  },
+  "rs1057910": {
+    "gene": "CYP2C9",
+    "star_allele": "*3",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer allele"
+  },
+  "rs4149056": {
+    "gene": "SLCO1B1",
+    "star_allele": "*5",
+    "effect": "decreased_function",
+    "clinical_significance": "Increased statin exposure risk"
+  },
+  "rs2306283": {
+    "gene": "SLCO1B1",
+    "star_allele": "*1b",
+    "effect": "increased_function",
+    "clinical_significance": "Normal to increased transport"
+  },
+  "rs1800462": {
+    "gene": "TPMT",
+    "star_allele": "*2",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer allele"
+  },
+  "rs1800460": {
+    "gene": "TPMT",
+    "star_allele": "*3B",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer allele"
+  },
+  "rs1142345": {
+    "gene": "TPMT",
+    "star_allele": "*3C",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer allele"
+  },
+  "rs3918290": {
+    "gene": "DPYD",
+    "star_allele": "*2A",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer — fluorouracil toxicity risk"
+  },
+  "rs55886062": {
+    "gene": "DPYD",
+    "star_allele": "*13",
+    "effect": "loss_of_function",
+    "clinical_significance": "Poor Metabolizer allele"
+  },
+  "rs67376798": {
+    "gene": "DPYD",
+    "star_allele": "c.2846A>T",
+    "effect": "decreased_function",
+    "clinical_significance": "Intermediate Metabolizer allele"
+  }
+}

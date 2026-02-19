@@ -1,0 +1,290 @@
+{
+  "CODEINE": {
+    "primary_gene": "CYP2D6",
+    "cpic_ref": "CPIC Guideline for Codeine and CYP2D6 (2014, updated 2022)",
+    "rules": {
+      "PM": {
+        "risk_label": "Toxic",
+        "severity": "critical",
+        "confidence": 0.95,
+        "action": "Avoid codeine — life-threatening respiratory depression risk",
+        "dose_adjustment": "Contraindicated",
+        "alternatives": ["morphine", "hydromorphone", "oxycodone"],
+        "monitoring": true
+      },
+      "IM": {
+        "risk_label": "Adjust Dosage",
+        "severity": "moderate",
+        "confidence": 0.80,
+        "action": "Use 25-50% lower dose with close monitoring",
+        "dose_adjustment": "Reduce by 25-50%",
+        "alternatives": ["tramadol with caution"],
+        "monitoring": true
+      },
+      "NM": {
+        "risk_label": "Safe",
+        "severity": "none",
+        "confidence": 0.90,
+        "action": "Standard dosing per label",
+        "dose_adjustment": "None required",
+        "alternatives": [],
+        "monitoring": false
+      },
+      "RM": {
+        "risk_label": "Ineffective",
+        "severity": "low",
+        "confidence": 0.85,
+        "action": "Inadequate analgesia expected, consider non-opioid alternative",
+        "dose_adjustment": "Avoid — poor pain control",
+        "alternatives": ["NSAIDs", "acetaminophen"],
+        "monitoring": false
+      },
+      "URM": {
+        "risk_label": "Toxic",
+        "severity": "critical",
+        "confidence": 0.97,
+        "action": "Contraindicated — ultra-rapid morphine conversion risk",
+        "dose_adjustment": "Contraindicated",
+        "alternatives": ["morphine", "hydromorphone"],
+        "monitoring": true
+      },
+      "Unknown": {
+        "risk_label": "Unknown",
+        "severity": "low",
+        "confidence": 0.40,
+        "action": "Insufficient data — use clinical judgment",
+        "dose_adjustment": "Consult pharmacist",
+        "alternatives": [],
+        "monitoring": true
+      }
+    }
+  },
+  "WARFARIN": {
+    "primary_gene": "CYP2C9",
+    "cpic_ref": "CPIC Guideline for Warfarin and CYP2C9, VKORC1, CYP4F2 (2017)",
+    "rules": {
+      "PM": {
+        "risk_label": "Adjust Dosage",
+        "severity": "high",
+        "confidence": 0.92,
+        "action": "Reduce initial dose by 50-75%, monitor INR frequently",
+        "dose_adjustment": "Reduce by 50-75%",
+        "alternatives": ["apixaban", "rivaroxaban (non-genomic alternatives)"],
+        "monitoring": true
+      },
+      "IM": {
+        "risk_label": "Adjust Dosage",
+        "severity": "moderate",
+        "confidence": 0.85,
+        "action": "Reduce initial dose by 25-50%",
+        "dose_adjustment": "Reduce by 25-50%",
+        "alternatives": [],
+        "monitoring": true
+      },
+      "NM": {
+        "risk_label": "Safe",
+        "severity": "none",
+        "confidence": 0.88,
+        "action": "Standard dosing with routine INR monitoring",
+        "dose_adjustment": "None required",
+        "alternatives": [],
+        "monitoring": true
+      },
+      "Unknown": {
+        "risk_label": "Unknown",
+        "severity": "moderate",
+        "confidence": 0.40,
+        "action": "Start with low dose, monitor INR closely",
+        "dose_adjustment": "Start conservatively",
+        "alternatives": [],
+        "monitoring": true
+      }
+    }
+  },
+  "CLOPIDOGREL": {
+    "primary_gene": "CYP2C19",
+    "cpic_ref": "CPIC Guideline for Clopidogrel and CYP2C19 (2022)",
+    "rules": {
+      "PM": {
+        "risk_label": "Ineffective",
+        "severity": "high",
+        "confidence": 0.93,
+        "action": "Switch to prasugrel or ticagrelor — clopidogrel will not activate",
+        "dose_adjustment": "Contraindicated",
+        "alternatives": ["prasugrel", "ticagrelor"],
+        "monitoring": false
+      },
+      "IM": {
+        "risk_label": "Adjust Dosage",
+        "severity": "moderate",
+        "confidence": 0.78,
+        "action": "Consider alternative antiplatelet agent",
+        "dose_adjustment": "Consider alternative",
+        "alternatives": ["prasugrel", "ticagrelor"],
+        "monitoring": true
+      },
+      "NM": {
+        "risk_label": "Safe",
+        "severity": "none",
+        "confidence": 0.90,
+        "action": "Standard dosing per label",
+        "dose_adjustment": "None required",
+        "alternatives": [],
+        "monitoring": false
+      },
+      "RM": {
+        "risk_label": "Safe",
+        "severity": "none",
+        "confidence": 0.85,
+        "action": "Standard or consider enhanced dosing",
+        "dose_adjustment": "None or slight increase per clinician",
+        "alternatives": [],
+        "monitoring": false
+      },
+      "URM": {
+        "risk_label": "Safe",
+        "severity": "none",
+        "confidence": 0.82,
+        "action": "Likely effective, standard dosing",
+        "dose_adjustment": "None required",
+        "alternatives": [],
+        "monitoring": false
+      },
+      "Unknown": {
+        "risk_label": "Unknown",
+        "severity": "moderate",
+        "confidence": 0.40,
+        "action": "Clinical judgment required",
+        "dose_adjustment": "Consult cardiologist",
+        "alternatives": [],
+        "monitoring": true
+      }
+    }
+  },
+  "SIMVASTATIN": {
+    "primary_gene": "SLCO1B1",
+    "cpic_ref": "CPIC Guideline for Simvastatin and SLCO1B1 (2022)",
+    "rules": {
+      "PM": {
+        "risk_label": "Toxic",
+        "severity": "high",
+        "confidence": 0.91,
+        "action": "High myopathy risk — switch to pravastatin or rosuvastatin",
+        "dose_adjustment": "Contraindicated at high doses",
+        "alternatives": ["pravastatin", "rosuvastatin", "fluvastatin"],
+        "monitoring": true
+      },
+      "IM": {
+        "risk_label": "Adjust Dosage",
+        "severity": "moderate",
+        "confidence": 0.83,
+        "action": "Use lower simvastatin dose (max 20mg) or switch statin",
+        "dose_adjustment": "Max 20mg/day",
+        "alternatives": ["pravastatin", "rosuvastatin"],
+        "monitoring": true
+      },
+      "NM": {
+        "risk_label": "Safe",
+        "severity": "none",
+        "confidence": 0.88,
+        "action": "Standard dosing",
+        "dose_adjustment": "None required",
+        "alternatives": [],
+        "monitoring": false
+      },
+      "Unknown": {
+        "risk_label": "Unknown",
+        "severity": "low",
+        "confidence": 0.40,
+        "action": "Use conservative dose, monitor for muscle symptoms",
+        "dose_adjustment": "Start low",
+        "alternatives": [],
+        "monitoring": true
+      }
+    }
+  },
+  "AZATHIOPRINE": {
+    "primary_gene": "TPMT",
+    "cpic_ref": "CPIC Guideline for Thiopurines and TPMT/NUDT15 (2018, updated 2022)",
+    "rules": {
+      "PM": {
+        "risk_label": "Toxic",
+        "severity": "critical",
+        "confidence": 0.96,
+        "action": "Avoid azathioprine — severe myelosuppression risk",
+        "dose_adjustment": "Contraindicated",
+        "alternatives": ["mycophenolate mofetil"],
+        "monitoring": true
+      },
+      "IM": {
+        "risk_label": "Adjust Dosage",
+        "severity": "high",
+        "confidence": 0.88,
+        "action": "Reduce dose by 30-70%, monitor CBC weekly for first month",
+        "dose_adjustment": "Reduce by 30-70%",
+        "alternatives": [],
+        "monitoring": true
+      },
+      "NM": {
+        "risk_label": "Safe",
+        "severity": "none",
+        "confidence": 0.90,
+        "action": "Standard dosing with routine CBC monitoring",
+        "dose_adjustment": "None required",
+        "alternatives": [],
+        "monitoring": true
+      },
+      "Unknown": {
+        "risk_label": "Unknown",
+        "severity": "high",
+        "confidence": 0.40,
+        "action": "Start low, monitor CBC frequently",
+        "dose_adjustment": "Start at 25% of normal dose",
+        "alternatives": [],
+        "monitoring": true
+      }
+    }
+  },
+  "FLUOROURACIL": {
+    "primary_gene": "DPYD",
+    "cpic_ref": "CPIC Guideline for Fluoropyrimidines and DPYD (2017, updated 2023)",
+    "rules": {
+      "PM": {
+        "risk_label": "Toxic",
+        "severity": "critical",
+        "confidence": 0.95,
+        "action": "Contraindicated — life-threatening toxicity risk",
+        "dose_adjustment": "Contraindicated",
+        "alternatives": ["capecitabine with extreme caution or avoid fluoropyrimidines"],
+        "monitoring": true
+      },
+      "IM": {
+        "risk_label": "Adjust Dosage",
+        "severity": "high",
+        "confidence": 0.87,
+        "action": "Reduce starting dose by 50%, titrate based on toxicity",
+        "dose_adjustment": "Reduce by 50%",
+        "alternatives": [],
+        "monitoring": true
+      },
+      "NM": {
+        "risk_label": "Safe",
+        "severity": "none",
+        "confidence": 0.89,
+        "action": "Standard dosing per oncology protocol",
+        "dose_adjustment": "None required",
+        "alternatives": [],
+        "monitoring": false
+      },
+      "Unknown": {
+        "risk_label": "Unknown",
+        "severity": "high",
+        "confidence": 0.40,
+        "action": "Proceed with caution, monitor for toxicity closely",
+        "dose_adjustment": "Consider dose reduction",
+        "alternatives": [],
+        "monitoring": true
+      }
+    }
+  }
+}

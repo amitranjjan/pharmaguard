@@ -1,0 +1,68 @@
+{
+  "CYP2D6": {
+    "*1/*1": "NM",
+    "*1/*2": "NM",
+    "*1/*4": "IM",
+    "*1/*10": "IM",
+    "*1/*41": "IM",
+    "*4/*4": "PM",
+    "*4/*6": "PM",
+    "*3/*4": "PM",
+    "*2/*2": "NM",
+    "*10/*10": "IM",
+    "*41/*41": "IM",
+    "*1/*1xN": "URM",
+    "*2xN/*2": "URM",
+    "default_no_variant": "*1/*1",
+    "default_phenotype": "NM"
+  },
+  "CYP2C19": {
+    "*1/*1": "NM",
+    "*1/*2": "IM",
+    "*1/*3": "IM",
+    "*2/*2": "PM",
+    "*2/*3": "PM",
+    "*3/*3": "PM",
+    "*1/*17": "RM",
+    "*17/*17": "URM",
+    "*2/*17": "IM",
+    "default_no_variant": "*1/*1",
+    "default_phenotype": "NM"
+  },
+  "CYP2C9": {
+    "*1/*1": "NM",
+    "*1/*2": "IM",
+    "*1/*3": "IM",
+    "*2/*2": "IM",
+    "*2/*3": "PM",
+    "*3/*3": "PM",
+    "default_no_variant": "*1/*1",
+    "default_phenotype": "NM"
+  },
+  "SLCO1B1": {
+    "*1a/*1a": "NM",
+    "*1a/*5": "IM",
+    "*5/*5": "PM",
+    "*1b/*1b": "NM",
+    "default_no_variant": "*1a/*1a",
+    "default_phenotype": "NM"
+  },
+  "TPMT": {
+    "*1/*1": "NM",
+    "*1/*2": "IM",
+    "*1/*3C": "IM",
+    "*3B/*3C": "PM",
+    "*2/*3C": "PM",
+    "*3C/*3C": "PM",
+    "default_no_variant": "*1/*1",
+    "default_phenotype": "NM"
+  },
+  "DPYD": {
+    "*1/*1": "NM",
+    "*1/*2A": "IM",
+    "*2A/*2A": "PM",
+    "*1/*13": "IM",
+    "default_no_variant": "*1/*1",
+    "default_phenotype": "NM"
+  }
+}
