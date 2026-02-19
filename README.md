@@ -8,7 +8,7 @@
 
 | Resource | Link |
 |---|---|
-| 🌐 Live Demo | [Click Here.](https://pharmaguard-xsparx.streamlit.app) |
+| 🌐 Live Demo | [Click Here](https://pharmaguard-xsparx.streamlit.app) |
 | 🎥 LinkedIn Demo Video | [Watch on LinkedIn](https://www.linkedin.com/posts/your-video-link) |
 | 📁 GitHub Repository | [Click Here](https://github.com/amitranjjan/pharmaguard) |
 
