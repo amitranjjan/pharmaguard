@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configure Gemini 
-genai.configure(api_key=os.getenv("API key here"))
+genai.configure(api_key=os.getenv("AIzaSyBFMcUqO45CO-8coxJSaDXknBiaXNF_N6s"))
 model = genai.GenerativeModel(
     model_name="gemini-1.5-flash",
     generation_config={
@@ -246,3 +246,4 @@ def _fallback_explanation(gene, diplotype, phenotype, drug, risk_label, action) 
         ]
 
     }
+
