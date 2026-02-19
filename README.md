@@ -9,7 +9,7 @@
 | Resource | Link |
 |---|---|
 | 🌐 Live Demo | [Click Here](https://pharmaguard-xsparx.streamlit.app) |
-| 🎥 LinkedIn Demo Video | [Watch on LinkedIn](https://www.linkedin.com/posts/your-video-link) |
+| 🎥 LinkedIn Demo Video | [Watch on LinkedIn]([https://www.linkedin.com/posts/your-video-link](https://www.linkedin.com/posts/amit-ranjan-08787135b_rift2026-pharmaguard-pharmacogenomics-activity-7430389039318384640-IKiE?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFmmjicBYeX5Cy_SJEest820-oRpObCpiAU)) |
 | 📁 GitHub Repository | [Click Here](https://github.com/amitranjjan/pharmaguard) |
 
 > 📢 Built for **RIFT 2026 Hackathon** — Pharmacogenomics / Explainable AI Track
